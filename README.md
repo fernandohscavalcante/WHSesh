@@ -2,7 +2,7 @@
 
 Kit de preservação técnica, de escopo estritamente passivo, para o incidente de abuso de marca relacionado a `lojapayjoy.shop`.
 
-* Para liderança e Jurídico: leia o [relatório executivo](docs/relatorio-executivo-lojapayjoy.md).
+* Para liderança e Jurídico: leia o [relatório executivo](docs/relatorio-executivo-lojapayjoy.md) e, para os achados posteriores a ele, o [relatório consolidado](docs/relatorio-consolidado-lojapayjoy.md).
 * Para Fraud Ops e analistas técnicos: leia o [snapshot técnico](docs/lojapayjoy-technical-status.md) e as regras de preservação de evidências.
 * Para a coleta ampliada de 29/09/2026 (marca, pagamento, infraestrutura, canais de denúncia): leia o [registro OSINT](docs/registro-osint-lojapayjoy-20260929.md).
 
