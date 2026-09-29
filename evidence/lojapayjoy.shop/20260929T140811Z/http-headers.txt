@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+date: Tue, 29 Sep 2026 14:08:14 GMT
+server: envoy
+
+HTTP/2 200
+date: Tue, 29 Sep 2026 14:08:17 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache, must-revalidate, max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-deployment-id: psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791295695.lQpKcABcjEUwDLEJOxRnVB2ALPhBkFjpEYuiWnHjvGw
+server: envoy
+cf-ray: a42b8f111dab9d53-ORD
+x-envoy-upstream-service-time: 1567
