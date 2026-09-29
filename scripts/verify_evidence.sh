@@ -30,9 +30,12 @@ while IFS= read -r -d '' snapshot; do
     (cd "$snapshot" && "${SHA256[@]}" -c SHA256SUMS 2>&1 | grep -v ': OK$') || true
     snapshot_ok=0
   fi
+  # Read the covered names once. Piping sed into `grep -q` would let grep exit early,
+  # sed would die of SIGPIPE, and pipefail would report a covered file as missing.
+  covered="$(sed -E 's/^[0-9a-f]{64} [ *]//' "$snapshot/SHA256SUMS")"
   while IFS= read -r -d '' file; do
     name="${file##*/}"
-    if ! sed -E 's/^[0-9a-f]{64} [ *]//' "$snapshot/SHA256SUMS" | grep -qxF -- "$name"; then
+    if ! grep -xF -- "$name" <<< "$covered" >/dev/null; then
       printf 'FAIL %s: %s is not covered by SHA256SUMS\n' "$snapshot" "$name"
       snapshot_ok=0
     fi

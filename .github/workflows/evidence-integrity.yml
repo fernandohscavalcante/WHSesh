@@ -1,7 +1,7 @@
 name: Evidence integrity
 
 # Local checks only: this workflow never contacts the reported domain or any
-# third-party data source.
+# OSINT data source (a shellcheck install from Ubuntu mirrors is the only download).
 on:
   push:
   pull_request:
@@ -17,7 +17,9 @@ jobs:
       - name: Verify evidence manifests
         run: ./scripts/verify_evidence.sh
       - name: Lint shell scripts
-        run: shellcheck scripts/*.sh
+        run: |
+          command -v shellcheck >/dev/null || { sudo apt-get update -q && sudo apt-get install -yq shellcheck; }
+          shellcheck scripts/*.sh
       - name: Check Python and JavaScript syntax
         run: |
           python3 -m py_compile scripts/*.py
