@@ -1,0 +1,224 @@
+[
+  {
+    "url": "https://lojapayjoy.shop/assets/index-CcG2BHMU.js",
+    "status": 200,
+    "body_sha256": "28ca894d9271f10b7cf925adbe8710e922c72906635119e760217c0d32dbb31f",
+    "stored_as": "asset-28ca894d9271-index-CcG2BHMU.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/modelos-j5tS-17t.js",
+    "status": 200,
+    "body_sha256": "0bc3cf4292dd43aab2d95d9ae9a1bc72d37f1e15a7ed1f8d817d559017c31338",
+    "stored_as": "asset-0bc3cf4292dd-modelos-j5tS-17t.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/useRouter-adkchSDI.js",
+    "status": 200,
+    "body_sha256": "cdd15743393466c91f79618811b3b61edf9d64ffc76f8fe28cb584352ca68f1f",
+    "stored_as": "asset-cdd157433934-useRouter-adkchSDI.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/ProductCard-BmBlGYxO.js",
+    "status": 200,
+    "body_sha256": "3cfa4dc2bf47b027da61fcd11019f17f482e2669095f3b89f22767ec7becdd24",
+    "stored_as": "asset-3cfa4dc2bf47-ProductCard-BmBlGYxO.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/Picture-B5Ax3o_t.js",
+    "status": 200,
+    "body_sha256": "7dedc8932cf0b4b2d897abab25fc536ac14f93f52b89e8b8605095388993d339",
+    "stored_as": "asset-7dedc8932cf0-Picture-B5Ax3o_t.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/analytics-CfllpNYX.js",
+    "status": 200,
+    "body_sha256": "ba34a6eb058e59c171b6f52b5ce85f2112c6dd85dc2248a2da7233834a753d41",
+    "stored_as": "asset-ba34a6eb058e-analytics-CfllpNYX.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/tracking-Dds2sMop.js",
+    "status": 200,
+    "body_sha256": "acec22cd0080ffeee79316b67c381db83edee0b72cc05a2f65d29cad122a0211",
+    "stored_as": "asset-acec22cd0080-tracking-Dds2sMop.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/utils-B2Wrwm_k.js",
+    "status": 200,
+    "body_sha256": "0692230bb574dbb446c12ef6b107025ea44f19e04eac35812660e660f8c20912",
+    "stored_as": "asset-0692230bb574-utils-B2Wrwm_k.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/link-Dh2AvBsL.js",
+    "status": 200,
+    "body_sha256": "2e16c17a691907050be4eac62de2efe828bdb51eb797bc43de49866e5a89a47b",
+    "stored_as": "asset-2e16c17a6919-link-Dh2AvBsL.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/BrandLogo-C9tngqoz.js",
+    "status": 200,
+    "body_sha256": "18ed0d2ac8226f9cb64ee2d5a67292dacd1e220811061a1d2a96d36d9505597d",
+    "stored_as": "asset-18ed0d2ac822-BrandLogo-C9tngqoz.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/check-BD5r5mmk.js",
+    "status": 200,
+    "body_sha256": "e2bf4a9764abaf001b85a49d543fd92ca41c647ae865f10a227102320f1c99fd",
+    "stored_as": "asset-e2bf4a9764ab-check-BD5r5mmk.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/chevron-left-DOteKRT8.js",
+    "status": 200,
+    "body_sha256": "39e35d24fb3ace378d6e3b8fabc8fab1593117d89f29ea094b3eea2e99abb1fd",
+    "stored_as": "asset-39e35d24fb3a-chevron-left-DOteKRT8.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/search-x-NS0R2aHQ.js",
+    "status": 200,
+    "body_sha256": "6e1fee64ce584190a06222e18a1b7778e6333b9e433baa9daa7d5c5fb2ebca6f",
+    "stored_as": "asset-6e1fee64ce58-search-x-NS0R2aHQ.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/search-fO2sNduh.js",
+    "status": 200,
+    "body_sha256": "7680f7acfef547f5e41d04dafa354611a6533092dae84402c6106bfdcf8c309b",
+    "stored_as": "asset-7680f7acfef5-search-fO2sNduh.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/routes-CyiLZBL0.js",
+    "status": 200,
+    "body_sha256": "9af49fddfc35c451ca3eb27316f89ed5d466521ed69a784e73c2c2def60cc699",
+    "stored_as": "asset-9af49fddfc35-routes-CyiLZBL0.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/StoreLocatorModal-sijp6bqm.js",
+    "status": 200,
+    "body_sha256": "1c393bbebe70f4b09e97f989a511a7f16930c6e2fadeedab982a35d30610386a",
+    "stored_as": "asset-1c393bbebe70-StoreLocatorModal-sijp6bqm.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/AnimatePresence-K0WCJUSI.js",
+    "status": 200,
+    "body_sha256": "3be9839263a31469de1ca8e3f5525973c39fa8dab75dcc6b826abe495aa97229",
+    "stored_as": "asset-3be9839263a3-AnimatePresence-K0WCJUSI.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/react-DTKcDpOv.js",
+    "status": 200,
+    "body_sha256": "7a30f34b55dfa4b32b6b2128ca977314536ea5becc9e758d92dab7e6e536d02b",
+    "stored_as": "asset-7a30f34b55df-react-DTKcDpOv.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/delivery-CwkbDOJs.js",
+    "status": 200,
+    "body_sha256": "3d47adb48010547ce38d08f03547173e3058be2b2ec523ca3d6b0761fac8fc01",
+    "stored_as": "asset-3d47adb48010-delivery-CwkbDOJs.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/masks-57i51LdT.js",
+    "status": 200,
+    "body_sha256": "146593a7f327625cdc6279d143378648223b3475a4ff14e500b9d32671e3428f",
+    "stored_as": "asset-146593a7f327-masks-57i51LdT.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/arrow-right-DtEimlvF.js",
+    "status": 200,
+    "body_sha256": "5a5ebf068b7ac6dc05c64727505e2bd815836911dccb2af3f0a54af40fac4961",
+    "stored_as": "asset-5a5ebf068b7a-arrow-right-DtEimlvF.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/triangle-alert-CVbVOa2P.js",
+    "status": 200,
+    "body_sha256": "2c9cd268cfa2915f111cb1eeb17f6009fb205bb9f756a0c9982602ed1a9b8cd9",
+    "stored_as": "asset-2c9cd268cfa2-triangle-alert-CVbVOa2P.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/shield-check-DWYDpMZx.js",
+    "status": 200,
+    "body_sha256": "e778cebb634f27b00f9db7450017ad0b21fc531e2170efc52d7ffbe4362572e0",
+    "stored_as": "asset-e778cebb634f-shield-check-DWYDpMZx.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/produto._slug-B8Ca9fO5.js",
+    "status": 200,
+    "body_sha256": "7e0466ee64f6929f278442ba4c0405e5197ba1f9cdecffd2ca785e911c6c803f",
+    "stored_as": "asset-7e0466ee64f6-produto._slug-B8Ca9fO5.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/produto._slug-DVTk8Peq.js",
+    "status": 200,
+    "body_sha256": "143dfe57d0dd1f65e9026955036615659013b4f7fbdc9e9b3b809f1bb17f89bf",
+    "stored_as": "asset-143dfe57d0dd-produto._slug-DVTk8Peq.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/produto._slug-Bock5dLC.js",
+    "status": 200,
+    "body_sha256": "89b059020cc9aa1b79ffa0c2d941fbae1e3553676311037d854e0b57f2ed11d3",
+    "stored_as": "asset-89b059020cc9-produto._slug-Bock5dLC.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/truck-BtL9MtJq.js",
+    "status": 200,
+    "body_sha256": "7ca3fb50495b5286c6fd23a39a2d861a5a255fe6d18f11ef789e0ae27045107b",
+    "stored_as": "asset-7ca3fb50495b-truck-BtL9MtJq.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/wallet-gmmPSglF.js",
+    "status": 200,
+    "body_sha256": "0071f02b6eacb55c0ca46c1a4f1caad3230b797b66cbc3d595ecd099e056f06f",
+    "stored_as": "asset-0071f02b6eac-wallet-gmmPSglF.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/checkout._slug-qwlo9pnT.js",
+    "status": 200,
+    "body_sha256": "0165b6c3bd7a706fc3533a3540f6fa2a5d7876bee2b48e439e998e346dbe0839",
+    "stored_as": "asset-0165b6c3bd7a-checkout._slug-qwlo9pnT.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/checkout._slug-BwtoiUEk.js",
+    "status": 200,
+    "body_sha256": "603962c20b0046302fc6c9170f837cfb160e538a595dcacec20467846e3cd88c",
+    "stored_as": "asset-603962c20b00-checkout._slug-BwtoiUEk.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/arrow-left-Bn3Q786H.js",
+    "status": 200,
+    "body_sha256": "3b64f687a14958788cb4fd8444fb0d03dd745efb6e2c5522deae8d816550e170",
+    "stored_as": "asset-3b64f687a149-arrow-left-Bn3Q786H.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/checkout._slug.index-CzqUryUW.js",
+    "status": 200,
+    "body_sha256": "3c8b1e5091f904065bee8391a88057afde7d65797d58af304596060107ef118b",
+    "stored_as": "asset-3c8b1e5091f9-checkout._slug.index-CzqUryUW.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/format-DfX_mkBq.js",
+    "status": 200,
+    "body_sha256": "3d70b87d27163e519343794e3a24d175fbcfa38779de032547a0be9031cee557",
+    "stored_as": "asset-3d70b87d2716-format-DfX_mkBq.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/refresh-cw-DBSXWy2A.js",
+    "status": 200,
+    "body_sha256": "fa6895d06057443b2f88f20bc0f70caf126ce2f852d98373ce3165fbb6ca052d",
+    "stored_as": "asset-fa6895d06057-refresh-cw-DBSXWy2A.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/checkout._slug.pagamento-0TbX-ufP.js",
+    "status": 200,
+    "body_sha256": "2e546a22a099e4c1102fa782352a6797e89bbb0925b440c752c3fd3bc00d202a",
+    "stored_as": "asset-2e546a22a099-checkout._slug.pagamento-0TbX-ufP.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/user-DoQ-NNpS.js",
+    "status": 200,
+    "body_sha256": "ec51991a7be52bd7e4d328c7f926fece4cf6f841b22b0adf538d90a02bfb256e",
+    "stored_as": "asset-ec51991a7be5-user-DoQ-NNpS.js"
+  },
+  {
+    "url": "https://lojapayjoy.shop/assets/checkout._slug.confirmacao-B8zmxBy6.js",
+    "status": 200,
+    "body_sha256": "ae8e0142280bdb06dda6e339aa0f66650beb806e82175dd8ba6f8302c28f9bb2",
+    "stored_as": "asset-ae8e0142280b-checkout._slug.confirmacao-B8zmxBy6.js"
+  }
+]

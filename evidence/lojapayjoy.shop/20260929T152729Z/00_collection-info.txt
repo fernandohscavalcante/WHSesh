@@ -1,0 +1,10 @@
+target=lojapayjoy.shop
+collected_at_utc=2026-09-29T15:27:29Z
+collection_scope=public-DNS-RDAP(domain,IP)-CT-and-HTTP-HEAD-only
+collector_sha256=cb69572154e423032dfc12547c83bd7628f38b0e31e50bbdd2ebc1cd87159516
+collector_git_commit=c9dc7ddf9165cc14cf71da94c092887b84b441f4
+collector_modified_since_commit=no
+curl_version=curl 8.5.0
+https_proxy_configured=yes
+custom_ca_bundle_configured=yes
+system_clock_ntp_synchronized=unknown

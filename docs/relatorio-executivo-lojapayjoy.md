@@ -85,4 +85,6 @@ O diretório [`evidence/lojapayjoy.shop/20260929T140811Z`](../evidence/lojapayjo
 
 Antes de apoiar qualquer medida neste snapshot, o Jurídico deve considerar as [limitações conhecidas](lojapayjoy-technical-status.md#known-limitations-of-snapshot-20260929t140811z) descritas no relatório técnico: a versão do coletor que o produziu não está preservada no repositório, e o arquivo de cabeçalhos contém, antes da resposta do domínio, um bloco compatível com a resposta do proxy de saída do ambiente de coleta.
 
+Os achados da coleta ampliada de 29/09/2026 (uso da marca, cópia de texto da loja oficial, fluxo de pagamento, infraestrutura e canais de denúncia) estão no [registro OSINT](registro-osint-lojapayjoy-20260929.md).
+
 Para nova coleta passiva, a equipe técnica pode executar o coletor documentado no [relatório técnico](lojapayjoy-technical-status.md#reproducible-passive-collection). Ele fixa o alvo no domínio deste caso e cria um novo diretório UTC; não foi desenhado como ferramenta genérica de investigação.

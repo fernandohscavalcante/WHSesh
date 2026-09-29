@@ -1,0 +1,1245 @@
+{
+  "label": "mobile",
+  "started_at_utc": "2026-09-29T15:37:09.517Z",
+  "final_url": "https://lojapayjoy.shop/",
+  "main_status": null,
+  "main_remote_address": null,
+  "navigation_error": "page.goto: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://lojapayjoy.shop/\", waiting until \"networkidle\"\u001b[22m\n",
+  "title": "PayJoy — Celular novo em parcelas fixas a cada 14 dias",
+  "bot_challenge_detected": false,
+  "user_agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+  "viewport": {
+    "width": 412,
+    "height": 839
+  },
+  "links": [
+    {
+      "text": "Pular para o conteúdo",
+      "href": "https://lojapayjoy.shop/#main"
+    },
+    {
+      "text": "",
+      "href": "https://lojapayjoy.shop/#main"
+    },
+    {
+      "text": "VELOCIDADE 5G\nSó 3 em estoque!\nSamsung Galaxy A26 5G 256GB\n\nSamsung\n\nValor a ser financiado R$1259\n\nA partir de R$91 a cada duas semanas\n\n256 GB | 8 GB RAMComprar agora",
+      "href": "https://lojapayjoy.shop/produto/samsung-galaxy-a26-5g-256gb"
+    },
+    {
+      "text": "VELOCIDADE 5G\nSó 5 em estoque!\nMotorola Moto G35 5G 256GB\n\nMotorola\n\nValor a ser financiado R$979\n\nA partir de R$70 a cada duas semanas\n\n256 GB | 4 GB RAMComprar agora",
+      "href": "https://lojapayjoy.shop/produto/motorola-moto-g35-5g-256gb"
+    },
+    {
+      "text": "TELA PREMIUM\nSó 6 em estoque!\nSamsung Galaxy A17 128GB\n\nSamsung\n\nValor a ser financiado R$909\n\nA partir de R$65 a cada duas semanas\n\n128 GB | 4 GB RAMComprar agora",
+      "href": "https://lojapayjoy.shop/produto/samsung-galaxy-a17-128gb"
+    },
+    {
+      "text": "CUSTO BENEFÍCIO\nSó 4 em estoque!\nRealme C73 256GB\n\nRealme\n\nValor a ser financiado R$909\n\nA partir de R$64 a cada duas semanas\n\n256 GB | 8 GB RAMComprar agora",
+      "href": "https://lojapayjoy.shop/produto/realme-c73-256gb"
+    },
+    {
+      "text": "Conheça os modelos",
+      "href": "https://lojapayjoy.shop/modelos"
+    },
+    {
+      "text": "Honor",
+      "href": "https://lojapayjoy.shop/#comprar"
+    },
+    {
+      "text": "Samsung",
+      "href": "https://lojapayjoy.shop/#comprar"
+    },
+    {
+      "text": "Motorola",
+      "href": "https://lojapayjoy.shop/#comprar"
+    },
+    {
+      "text": "Realme",
+      "href": "https://lojapayjoy.shop/#comprar"
+    },
+    {
+      "text": "TCL",
+      "href": "https://lojapayjoy.shop/#comprar"
+    },
+    {
+      "text": "Confira os modelos",
+      "href": "https://lojapayjoy.shop/#comprar"
+    },
+    {
+      "text": "Fale conosco",
+      "href": "https://lojapayjoy.shop/#contato"
+    },
+    {
+      "text": "Sobre nós",
+      "href": "https://lojapayjoy.shop/#sobre"
+    },
+    {
+      "text": "",
+      "href": "https://www.facebook.com/payjoy"
+    },
+    {
+      "text": "",
+      "href": "https://www.instagram.com/payjoy"
+    }
+  ],
+  "console": [
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: net::ERR_TOO_MANY_RETRIES"
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://lojapayjoy.shop/",
+      "method": "GET",
+      "resource_type": "document",
+      "request_headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "host": "lojapayjoy.shop",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "no-cache, must-revalidate, max-age=0",
+        "cf-ray": "a42c117b2e5be5f9-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:18 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=d3ffa97d23b8477c4d085bd2009cc1c369f1a4bd93ab2cc7a262bb841803fc2e)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301037.VfXfeXFVcWVbAILWE95F1MPIhGFuOEOa8LRWd-vCUs8"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 76612,
+      "body_sha256": "c614cb5761545e25e65e81365137375ad9c9526dcaff5ac49216b6977d0482cd",
+      "stored_as": "asset-c614cb576154-index"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/styles-CXPWUUO3.css",
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "failure": "net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/arrow-right-DtEimlvF.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c11a0c9ba96d5-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:23 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=2e4d824dc43ce8a90e37f1b23936c69aed6640736a3a185c67e9654bf02041d8)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301043.Czo3Du1XpjzO2OpSE84a1XnIJzt_WXhBH6w7nBVQumM"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 154,
+      "body_sha256": "5a5ebf068b7ac6dc05c64727505e2bd815836911dccb2af3f0a54af40fac4961",
+      "stored_as": "asset-5a5ebf068b7a-arrow-right-DtEimlvF.js"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap",
+      "method": "GET",
+      "resource_type": "stylesheet",
+      "request_headers": {
+        "accept": "text/css,*/*;q=0.1",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "host": "fonts.googleapis.com",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "style",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-storage-access": "active",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+        "connection": "close",
+        "content-encoding": "gzip",
+        "content-type": "text/css; charset=utf-8",
+        "cross-origin-opener-policy": "same-origin-allow-popups",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Tue, 29 Sep 2026 15:37:24 GMT",
+        "expires": "Tue, 29 Sep 2026 15:37:24 GMT",
+        "last-modified": "Tue, 29 Sep 2026 15:37:24 GMT",
+        "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+        "server": "ESF",
+        "strict-transport-security": "max-age=31536000",
+        "timing-allow-origin": "*",
+        "transfer-encoding": "chunked",
+        "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "0"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 21770,
+      "body_sha256": "743bf501d08f8d048b250b6389d8e5239b5111cc50cdb5811404cc908ff3c3eb"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/AnimatePresence-K0WCJUSI.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c11a66a4ad6e8-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:24 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=97b81e775fb926172d21b252eafb196b71df97e62b10f1b22b65cfebe57e1354)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301044.sXv0qY-Acju90Z6JYHczmzUibiusqmw9PBH3UYcAZl8"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 4187,
+      "body_sha256": "3be9839263a31469de1ca8e3f5525973c39fa8dab75dcc6b826abe495aa97229",
+      "stored_as": "asset-3be9839263a3-AnimatePresence-K0WCJUSI.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/shield-check-DWYDpMZx.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c11cd2907fe99-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:30 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=3036e7d17120781f2698a3a4903ce2bbb1d007ee53c992c725bb12c61996c1a5)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301050.3ZUSREC8DebvDmV-f-zDpzFkDW9H9VmXzoVZOt7cI3Y"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 309,
+      "body_sha256": "e778cebb634f27b00f9db7450017ad0b21fc531e2170efc52d7ffbe4362572e0",
+      "stored_as": "asset-e778cebb634f-shield-check-DWYDpMZx.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/ProductCard-BmBlGYxO.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c11df3d46d32b-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:33 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=f53c03e74c517d49971ac217af244560049fdbde0eb0c32b7d159eafe069e2e5)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301053.gIceMAvLQKMBq9s2TtaEQxsApHakcz2pg3Rpzd8tA1M"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 10404,
+      "body_sha256": "3cfa4dc2bf47b027da61fcd11019f17f482e2669095f3b89f22767ec7becdd24",
+      "stored_as": "asset-3cfa4dc2bf47-ProductCard-BmBlGYxO.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/search-fO2sNduh.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c11e30c9132f0-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:34 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=9182a3e2f4fc8d876b54e4a83c45758ac790bbe26246c907360dc9ee0f48d189)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301053.gIceMAvLQKMBq9s2TtaEQxsApHakcz2pg3Rpzd8tA1M"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 163,
+      "body_sha256": "7680f7acfef547f5e41d04dafa354611a6533092dae84402c6106bfdcf8c309b",
+      "stored_as": "asset-7680f7acfef5-search-fO2sNduh.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/masks-57i51LdT.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c11e638a532f0-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:34 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=6cf7093945c126ea01958940ed90f5c0692694abf875c696f8b242584fc14adb)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301054.M1fjLDzxXUJMH6M8AAdKMWW0mcFjml0uz-OAldezFKI"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 920,
+      "body_sha256": "146593a7f327625cdc6279d143378648223b3475a4ff14e500b9d32671e3428f",
+      "stored_as": "asset-146593a7f327-masks-57i51LdT.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/BrandLogo-C9tngqoz.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c11ea3e790c9f-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:35 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=e5ff1faa0efaabd46cf6938bec79695720f0ee5a40cd282858b4ef16e7fc77f6)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301055.heHpk4XiOzG3XcExrICbu4JhPuZuyrxgr90DP98MlRw"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 847,
+      "body_sha256": "18ed0d2ac8226f9cb64ee2d5a67292dacd1e220811061a1d2a96d36d9505597d",
+      "stored_as": "asset-18ed0d2ac822-BrandLogo-C9tngqoz.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/delivery-CwkbDOJs.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c11f26c858b73-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:36 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=ab390ad0c4036fe8c1df6973a7b777e656d22a4a4b8dfcfa741ce1f8edfbeac5)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301056.R5Qd_2L9v0WI4_0JrMwdfiljJy_fy0aINU8pFBkhgNk"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 261,
+      "body_sha256": "3d47adb48010547ce38d08f03547173e3058be2b2ec523ca3d6b0761fac8fc01",
+      "stored_as": "asset-3d47adb48010-delivery-CwkbDOJs.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/check-BD5r5mmk.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c11feaab1adb7-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:38 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=18c6cf1631ce86cbe01a6d8398b043ddfd76615dc2ddb00fda50b0254207a75a)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301058.cfetqKzvweF-tp1kXMglZFFTdpBUWQg4uPjBhH7iJU4"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 113,
+      "body_sha256": "e2bf4a9764abaf001b85a49d543fd92ca41c647ae865f10a227102320f1c99fd",
+      "stored_as": "asset-e2bf4a9764ab-check-BD5r5mmk.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/react-DTKcDpOv.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c11fec894093e-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:38 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=0f98c9c11108283c17028bcc51d37a897de2c1331f7b35faa50b19c331ddc57f)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301058.cfetqKzvweF-tp1kXMglZFFTdpBUWQg4uPjBhH7iJU4"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 120971,
+      "body_sha256": "7a30f34b55dfa4b32b6b2128ca977314536ea5becc9e758d92dab7e6e536d02b",
+      "stored_as": "asset-7a30f34b55df-react-DTKcDpOv.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/analytics-CfllpNYX.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c1201e97c093e-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:38 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=325fbebecefdaad6d2b0e49fd6b80fe631ea2d7071ac2545bdd8400cbfac2797)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301058.cfetqKzvweF-tp1kXMglZFFTdpBUWQg4uPjBhH7iJU4"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 611,
+      "body_sha256": "ba34a6eb058e59c171b6f52b5ce85f2112c6dd85dc2248a2da7233834a753d41",
+      "stored_as": "asset-ba34a6eb058e-analytics-CfllpNYX.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/routes-CyiLZBL0.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c12040bb42909-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:39 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=51f56712c7103e5aa01642312975b74b933e151375dca6289239c6def68b0b40)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301059.UMUiZJTMB52rdBtyXF2a2mvMpbgGaZ10tJmxJNN0odw"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 38890,
+      "body_sha256": "9af49fddfc35c451ca3eb27316f89ed5d466521ed69a784e73c2c2def60cc699",
+      "stored_as": "asset-9af49fddfc35-routes-CyiLZBL0.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/__l5e/assets-v1/e6c15b7f-2eee-41e8-bee5-c5049b2694f7/hero-payjoy-devices.png",
+      "method": "GET",
+      "resource_type": "image",
+      "request_headers": {
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c12035f4b32f0-IAD",
+        "connection": "close, keep-alive",
+        "content-length": "273924",
+        "content-security-policy": "default-src 'none'; script-src 'none'; object-src 'none'; base-uri 'none'",
+        "content-type": "image/png",
+        "date": "Tue, 29 Sep 2026 15:37:39 GMT",
+        "etag": "\"e151db9a93a803f997279dd2bf803ed6\"",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=db0b7ec98507d486789f8d6ea3fcd1083357baa6d50947f20dc3f9f81b836104)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 273924,
+      "body_sha256": "5ff1fb5a26bc658a48498753e331d9eb21a0ae05be2b897b353f1d6d7b3c4bb6",
+      "stored_as": "asset-5ff1fb5a26bc-hero-payjoy-devices.png"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/useRouter-adkchSDI.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=7b62702b91db4ab9f6fa0ad2437efe4dc899a73d297d6743ced0a626a1b5d805)",
+        "host": "lojapayjoy.shop",
+        "origin": "https://lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c12139953d6c5-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:42 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=ec38cd41b5ceb32bf78f2f5307f84930dc3ad6faf34b99f140bcd2566a8cde9c)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301061.rdyB-AHIWZqKBtNsM2Uzxfx5Of4L1DIWaMhZ20puwDo"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 8748,
+      "body_sha256": "cdd15743393466c91f79618811b3b61edf9d64ffc76f8fe28cb584352ca68f1f",
+      "stored_as": "asset-cdd157433934-useRouter-adkchSDI.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/index-CcG2BHMU.js",
+      "method": "GET",
+      "resource_type": "script",
+      "failure": "net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/link-Dh2AvBsL.js",
+      "method": "GET",
+      "resource_type": "script",
+      "failure": "net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/StoreLocatorModal-sijp6bqm.js",
+      "method": "GET",
+      "resource_type": "script",
+      "failure": "net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/utils-B2Wrwm_k.js",
+      "method": "GET",
+      "resource_type": "script",
+      "failure": "net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/triangle-alert-CVbVOa2P.js",
+      "method": "GET",
+      "resource_type": "script",
+      "failure": "net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "url": "https://lojapayjoy.shop/__l5e/assets-v1/e75bec97-7e86-4e0d-92a0-6539f27fb1b1/payjoy-logo-nohalo.png",
+      "method": "GET",
+      "resource_type": "image",
+      "failure": "net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "url": "https://lojapayjoy.shop/__l5e/assets-v1/8b71d7c1-75ac-4975-8765-5f4939cc171e/motorola-logo.png",
+      "method": "GET",
+      "resource_type": "image",
+      "failure": "net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "url": "https://lojapayjoy.shop/__l5e/assets-v1/fa299918-cbfe-48eb-95c0-d371bbd0e978/realme-logo.png",
+      "method": "GET",
+      "resource_type": "image",
+      "failure": "net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/samsung-main-CkvNkYJa.avif",
+      "method": "GET",
+      "resource_type": "image",
+      "request_headers": {
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=2e47d3ae44a82cd516a6eb786d79f6c75a050ea8e3863c92aad809f48b510a03)",
+        "host": "lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c12452cf9adb7-IAD",
+        "connection": "close, keep-alive",
+        "content-length": "3617",
+        "content-type": "image/avif",
+        "date": "Tue, 29 Sep 2026 15:37:49 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301069.Rum4wn_TUj8WI6VgfI_9htu6V-TRrKfInj5Yl9vhn_E"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 3617,
+      "body_sha256": "8142013f1389d57bc44d7bc18bf1f74dafef117bcfdc81d6a308f45d3a65d6cb",
+      "stored_as": "asset-8142013f1389-samsung-main-CkvNkYJa.avif"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/moto-main-Dp85FMmj.avif",
+      "method": "GET",
+      "resource_type": "image",
+      "failure": "net::ERR_TOO_MANY_RETRIES"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/samsung-a17-main-BI7wSbPm.avif",
+      "method": "GET",
+      "resource_type": "image",
+      "request_headers": {
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=2e47d3ae44a82cd516a6eb786d79f6c75a050ea8e3863c92aad809f48b510a03)",
+        "host": "lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c125b5bb8f012-IAD",
+        "connection": "close, keep-alive",
+        "content-length": "3909",
+        "content-type": "image/avif",
+        "date": "Tue, 29 Sep 2026 15:37:53 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=bcc6cefbea07c808b98de0473b46346fb7515e353894148ef2dea40df7406d6c)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301073.XoqVT1bSH5Vg0GJfBoNcKxgoYWPo0ZikX_OiGQekxMU"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 3909,
+      "body_sha256": "9f1d941f21c813c860f1b1329e263b13cd35658521d23dc3a6972ac260578857",
+      "stored_as": "asset-9f1d941f21c8-samsung-a17-main-BI7wSbPm.avif"
+    },
+    {
+      "url": "https://lojapayjoy.shop/assets/realme-c73-main-5DI6gcSW.avif",
+      "method": "GET",
+      "resource_type": "image",
+      "request_headers": {
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=2e47d3ae44a82cd516a6eb786d79f6c75a050ea8e3863c92aad809f48b510a03)",
+        "host": "lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c12647f50a629-IAD",
+        "connection": "close, keep-alive",
+        "content-length": "6480",
+        "content-type": "image/avif",
+        "date": "Tue, 29 Sep 2026 15:37:54 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=f9fb9f4f9a788f10037b36edfd5516d6cbdc7bea8e2fa215fcc1bb7f13a90302)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301074.OOkG4Dn8lFhXY41S4t_dOQcvbvxTeQUptWEq0MQJwsU"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 6480,
+      "body_sha256": "59d183b2f37739a4af32dbb246c16ce1f8d3f747ac363d6e746e3debdeffa87d",
+      "stored_as": "asset-59d183b2f377-realme-c73-main-5DI6gcSW.avif"
+    },
+    {
+      "url": "https://lojapayjoy.shop/__l5e/assets-v1/1db0930c-7137-4946-a7a8-624ab75b896a/banner-elegibilidade-v5.png",
+      "method": "GET",
+      "resource_type": "image",
+      "request_headers": {
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=2e47d3ae44a82cd516a6eb786d79f6c75a050ea8e3863c92aad809f48b510a03)",
+        "host": "lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c127cab3f7c74-IAD",
+        "connection": "close, keep-alive",
+        "content-length": "61950",
+        "content-security-policy": "default-src 'none'; script-src 'none'; object-src 'none'; base-uri 'none'",
+        "content-type": "image/png",
+        "date": "Tue, 29 Sep 2026 15:37:58 GMT",
+        "etag": "\"3343f07da3f79177a16f62353ab125dd\"",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 61950,
+      "body_sha256": "6a2f012dd4bd71173125da0e318414869ce0b20d685841a05d1807cb7c5a8b73",
+      "stored_as": "asset-6a2f012dd4bd-banner-elegibilidade-v5.png"
+    },
+    {
+      "url": "https://lojapayjoy.shop/~flock.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=8864c68ba0328a0e9ca41a4516432ee167435cbfc9c7c50c72eab177c11f8bc4)",
+        "host": "lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "cache-control": "max-age=1500",
+        "cf-ray": "a42c127f7a8dc999-IAD",
+        "connection": "close, keep-alive",
+        "content-encoding": "gzip",
+        "content-type": "text/javascript; charset=utf-8",
+        "date": "Tue, 29 Sep 2026 15:37:58 GMT",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 21296,
+      "body_sha256": "a86e084b4f82709814be6c15fd6305daa783fda87ad95402da9a4d3a1dd6d748",
+      "stored_as": "asset-a86e084b4f82-_flock.js"
+    },
+    {
+      "url": "https://lojapayjoy.shop/__l5e/assets-v1/1008a72a-8b35-494b-8ec3-d6a13be3d628/banner-negativado.png",
+      "method": "GET",
+      "resource_type": "image",
+      "request_headers": {
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=2e47d3ae44a82cd516a6eb786d79f6c75a050ea8e3863c92aad809f48b510a03)",
+        "host": "lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c1280be49c999-IAD",
+        "connection": "close, keep-alive",
+        "content-length": "2254373",
+        "content-security-policy": "default-src 'none'; script-src 'none'; object-src 'none'; base-uri 'none'",
+        "content-type": "image/png",
+        "date": "Tue, 29 Sep 2026 15:37:59 GMT",
+        "etag": "\"d61afb096a04cc5b0eb1555b7d004661\"",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=27a42804120f43457f9adcb4575eae4a74517489e83d4ec79ef98e6bf4459e1a)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 2254373,
+      "body_sha256": "4b28bce3fbe79e4ba3bd603f7bc2bbc39d86678c7c04fdc7fff638f3b67bba00",
+      "stored_as": "asset-4b28bce3fbe7-banner-negativado.png"
+    },
+    {
+      "url": "https://lojapayjoy.shop/__l5e/assets-v1/c7213aaa-1c80-4f78-95af-cd8af3b2197a/banner-catalogo-v5.png",
+      "method": "GET",
+      "resource_type": "image",
+      "request_headers": {
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=2e47d3ae44a82cd516a6eb786d79f6c75a050ea8e3863c92aad809f48b510a03)",
+        "host": "lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c128b6f841039-IAD",
+        "connection": "close, keep-alive",
+        "content-length": "74134",
+        "content-security-policy": "default-src 'none'; script-src 'none'; object-src 'none'; base-uri 'none'",
+        "content-type": "image/png",
+        "date": "Tue, 29 Sep 2026 15:38:01 GMT",
+        "etag": "\"4dfa5d2a779aa556eeba5062cee8f767\"",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=221f9d7fdee7b22fd46b42f00c5061f873d07dcbf3d9df33b5c3e1b65fc26dab)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 74134,
+      "body_sha256": "07871100956c1c9735241f918e955f728eaa0ef984d6fb63862d85a8477a4e27",
+      "stored_as": "asset-07871100956c-banner-catalogo-v5.png"
+    },
+    {
+      "url": "https://lojapayjoy.shop/__l5e/assets-v1/06e945dc-9ba2-488c-83b2-714bab350e8c/trust-phone.png",
+      "method": "GET",
+      "resource_type": "image",
+      "request_headers": {
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "connection": "keep-alive",
+        "cookie": "(redacted; sha256=c2e1325c2e747f6d0190cf31586f9b1f47e1144e318f3c82e1d2cd7d584db750)",
+        "host": "lojapayjoy.shop",
+        "referer": "https://lojapayjoy.shop/",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.7390.37 Mobile Safari/537.36",
+        "sec-ch-ua": "\"HeadlessChrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+        "sec-ch-ua-mobile": "?1",
+        "sec-ch-ua-platform": "\"Android\""
+      },
+      "status": 200,
+      "response_headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=31536000, immutable",
+        "cf-ray": "a42c12901f2b1039-IAD",
+        "connection": "close, keep-alive",
+        "content-length": "309714",
+        "content-security-policy": "default-src 'none'; script-src 'none'; object-src 'none'; base-uri 'none'",
+        "content-type": "image/png",
+        "date": "Tue, 29 Sep 2026 15:38:01 GMT",
+        "etag": "\"04b4b8b28a9cb15faa95af58fd5073ac\"",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "server": "cloudflare",
+        "set-cookie": "(redacted; sha256=1d4441388e100186c51d5f5d035b43bfa4d2be8dfb53e08c1e27d987e7b59e25)",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-content-type-options": "nosniff"
+      },
+      "remote_address": {
+        "ipAddress": "127.0.0.1",
+        "port": 38091
+      },
+      "body_size": 309714,
+      "body_sha256": "601339a3686786315db0b29146fdd9d94d5d0197b5029c496206cd5592ade7c9",
+      "stored_as": "asset-601339a36867-trust-phone.png"
+    }
+  ]
+}

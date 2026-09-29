@@ -192,7 +192,12 @@ def http_indicators(path: Path, out: dict) -> None:
     for line in final[1:]:
         name, _, value = line.partition(":")
         if name.lower() in HTTP_HEADERS:
-            out[f"http.{name.lower()}"] = value.strip()
+            value = value.strip()
+            if name.lower() == "x-deployment-id":
+                # The suffix is a per-response expiry timestamp and signature; keep the
+                # stable deployment identifier so repeated collections compare cleanly.
+                value = ".".join(value.split(".")[:2]) + " (per-response suffix omitted)"
+            out[f"http.{name.lower()}"] = value
 
 
 def collection_info(snapshot: Path) -> dict:
@@ -235,6 +240,15 @@ def cell(value: str) -> str:
     return value.replace("|", "\\|")
 
 
+def missing(values: dict, key: str) -> str:
+    """Explain an absent indicator: its source failed, or it is simply absent."""
+    parts = key.split(".")
+    for end in range(len(parts) - 1, 0, -1):
+        if f"{'.'.join(parts[:end])}.response" in values:
+            return "(source failed)"
+    return ABSENT
+
+
 def describe(snapshot: Path, info: dict) -> str:
     fields = [f"{k}={v}" for k, v in info.items()]
     return f"`{snapshot}`: " + "; ".join(fields)
@@ -266,14 +280,15 @@ def main(argv: list[str]) -> int:
     print("Newer: " + describe(newer, collection_info(newer)))
     print()
     keys = list(old) + [k for k in new if k not in old]
-    changed = [k for k in keys if old.get(k, ABSENT) != new.get(k, ABSENT)]
+    changed = [k for k in keys if old.get(k, missing(old, k)) != new.get(k, missing(new, k))]
     if not changed:
         print("No indicator changed.")
         return 0
     print("| Indicator | Older | Newer |")
     print("| --- | --- | --- |")
     for key in changed:
-        print(f"| `{key}` | {cell(old.get(key, ABSENT))} | {cell(new.get(key, ABSENT))} |")
+        print(f"| `{key}` | {cell(old.get(key, missing(old, key)))} | "
+              f"{cell(new.get(key, missing(new, key)))} |")
     return 1
 
 

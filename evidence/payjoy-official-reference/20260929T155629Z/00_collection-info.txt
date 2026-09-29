@@ -1,0 +1,8 @@
+target=loja.payjoy.com
+collected_at_utc=2026-09-29T15:56:29Z
+collection_scope=official-reference-page-served-html-only
+purpose=comparison-with-lojapayjoy.shop
+collector=curl (manual command, see docs)
+curl_version=curl 8.5.0
+https_proxy_configured=yes
+custom_ca_bundle_configured=yes

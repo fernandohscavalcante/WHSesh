@@ -1,0 +1,17 @@
+artifact	http_status	curl_exit	requested_url	effective_url
+dns-apex-A.json	200	0	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=A	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=A
+dns-apex-AAAA.json	200	0	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=AAAA	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=AAAA
+dns-apex-NS.json	200	0	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=NS	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=NS
+dns-apex-MX.json	200	0	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=MX	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=MX
+dns-apex-TXT.json	200	0	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=TXT	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=TXT
+dns-apex-SOA.json	200	0	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=SOA	https://cloudflare-dns.com/dns-query?name=lojapayjoy.shop&type=SOA
+dns-www-A.json	200	0	https://cloudflare-dns.com/dns-query?name=www.lojapayjoy.shop&type=A	https://cloudflare-dns.com/dns-query?name=www.lojapayjoy.shop&type=A
+dns-www-AAAA.json	200	0	https://cloudflare-dns.com/dns-query?name=www.lojapayjoy.shop&type=AAAA	https://cloudflare-dns.com/dns-query?name=www.lojapayjoy.shop&type=AAAA
+dns-www-CNAME.json	200	0	https://cloudflare-dns.com/dns-query?name=www.lojapayjoy.shop&type=CNAME	https://cloudflare-dns.com/dns-query?name=www.lojapayjoy.shop&type=CNAME
+dns-lovable-verification-TXT.json	200	0	https://cloudflare-dns.com/dns-query?name=_lovable.lojapayjoy.shop&type=TXT	https://cloudflare-dns.com/dns-query?name=_lovable.lojapayjoy.shop&type=TXT
+rdap-registrar.json	200	0	https://namerdap.systems/domain/lojapayjoy.shop	https://namerdap.systems/domain/lojapayjoy.shop
+rdap-registry.json	429	0	https://rdap.gmoregistry.net/rdap/domain/lojapayjoy.shop	https://rdap.gmoregistry.net/rdap/domain/lojapayjoy.shop
+rdap-ip-185.158.133.1.json	200	0	https://rdap.org/ip/185.158.133.1	https://rdap.db.ripe.net/ip/185.158.133.1
+ct-apex.json	200	0	https://crt.sh/?q=lojapayjoy.shop&output=json	https://crt.sh/?q=lojapayjoy.shop&output=json
+ct-www.json	200	0	https://crt.sh/?q=www.lojapayjoy.shop&output=json	https://crt.sh/?q=www.lojapayjoy.shop&output=json
+http-headers.txt	200	0	https://lojapayjoy.shop/	https://lojapayjoy.shop/

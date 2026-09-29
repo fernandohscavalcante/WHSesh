@@ -1,0 +1,10 @@
+target=lojapayjoy.shop
+collected_at_utc=2026-09-29T15:52:56Z
+source=https://transparencyreport.google.com/safe-browsing/search?url=lojapayjoy.shop&hl=pt_BR
+collection_scope=third-party-report-page-only-no-request-to-target
+collector_sha256=0bb19187edee29e42fedd1709de19c8a28132b4d22c44a24927009491ab6123f
+collector_git_commit=d156399033673d360612353565427dba23915b44
+collector_modified_since_commit=no
+browser=chromium 141.0.7390.37
+https_proxy_configured=yes
+tls_certificate_errors_ignored=yes (egress proxy re-signs TLS)
