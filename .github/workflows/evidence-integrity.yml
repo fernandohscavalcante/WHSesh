@@ -1,0 +1,25 @@
+name: Evidence integrity
+
+# Local checks only: this workflow never contacts the reported domain or any
+# third-party data source.
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Verify evidence manifests
+        run: ./scripts/verify_evidence.sh
+      - name: Lint shell scripts
+        run: shellcheck scripts/*.sh
+      - name: Extract indicators from every snapshot
+        run: |
+          for snapshot in evidence/*/*/; do
+            python3 scripts/snapshot_indicators.py "$snapshot" > /dev/null
+          done

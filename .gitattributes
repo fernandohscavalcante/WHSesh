@@ -1,0 +1,5 @@
+# Evidence files are verified byte for byte against SHA256SUMS; Git must never
+# rewrite their line endings (for example with core.autocrlf on Windows).
+evidence/** -text
+*.sh text eol=lf
+*.py text eol=lf
