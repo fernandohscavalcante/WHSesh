@@ -1,14 +1,18 @@
 #!/usr/bin/env node
-// Capture the public landing page of lojapayjoy.shop as an ordinary visitor sees it.
+// Capture public, informational pages of lojapayjoy.shop as an ordinary visitor sees them.
 //
-// Scope: loads https://lojapayjoy.shop/ once per viewport (desktop and mobile), waits for
-// the page to settle, and records screenshots, the served and rendered HTML, the list of
-// requests the page itself made, and the bodies of same-origin scripts, stylesheets and
-// images. It never clicks, types, submits forms, follows links, or sends requests of its
-// own to any API. The only additional requests are /robots.txt and /sitemap.xml.
-// Bodies of API responses (fetch/XHR) are NOT stored, because they may contain third
-// parties' personal data; their URL, status, size and SHA-256 are logged instead.
-// A bot challenge is recorded as such and never bypassed.
+// Scope: loads a fixed list of pages (the home page, /modelos and one product page) on
+// desktop, and the home page on mobile. Each page is scrolled once so lazy images load,
+// then screenshots, the served and rendered HTML, visible text and the list of requests
+// the page itself made are recorded, with the bodies of same-origin scripts, stylesheets
+// and images. It never clicks, types, submits forms, opens the checkout routes, or sends
+// requests of its own to any API. Additional requests: /robots.txt, /sitemap.xml, and the
+// static JavaScript chunks listed in the app's own module manifest (downloaded as files,
+// never executed or rendered). Bodies of API responses (fetch/XHR) are NOT stored, because
+// they may contain third parties' personal data; their URL, status, size and SHA-256 are
+// logged instead. A bot challenge is recorded as such and never bypassed.
+// Same-origin requests are retried up to four times because some egress proxies drop
+// parallel connections; the retry is recorded in 00_collection-info.txt.
 //
 // Usage: NODE_PATH="$(npm root -g)" node scripts/capture_lojapayjoy_web.js [evidence-root]
 'use strict';
@@ -22,6 +26,11 @@ const { chromium, devices } = require('playwright');
 const TARGET = 'lojapayjoy.shop';
 const START_URL = `https://${TARGET}/`;
 const EXTRA_PATHS = ['/robots.txt', '/sitemap.xml'];
+const PAGES = {
+  desktop: ['/', '/modelos', '/produto/samsung-galaxy-a26-5g-256gb'],
+  mobile: ['/'],
+};
+const ATTEMPTS = 4;
 const STORED_TYPES = new Set(['document', 'script', 'stylesheet', 'image', 'font', 'manifest']);
 const REDACTED_HEADERS = new Set(['set-cookie', 'cookie', 'authorization', 'apikey']);
 const VIEWPORTS = {
@@ -30,6 +39,24 @@ const VIEWPORTS = {
 };
 
 const sha256 = (buf) => crypto.createHash('sha256').update(buf).digest('hex');
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const isSameOrigin = (url) => {
+  const host = new URL(url).hostname;
+  return host === TARGET || host.endsWith(`.${TARGET}`);
+};
+
+async function withRetries(fn) {
+  let lastError;
+  for (let attempt = 1; attempt <= ATTEMPTS; attempt += 1) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastError = err;
+      await sleep(1500 * attempt);
+    }
+  }
+  throw lastError;
+}
 
 function redact(headers) {
   const out = {};
@@ -55,8 +82,17 @@ function assetName(url, body) {
   return `asset-${sha256(body).slice(0, 12)}-${base.replace(/[^A-Za-z0-9._-]/g, '_')}`.slice(0, 120);
 }
 
-async function capture(browser, outDir, label, options, stored) {
+async function capture(browser, outDir, label, pagePath, options, stored) {
   const context = await browser.newContext({ ...options, ignoreHTTPSErrors: true });
+  await context.route('**/*', async (route) => {
+    if (!isSameOrigin(route.request().url())) return route.continue();
+    try {
+      const response = await withRetries(() => route.fetch({ timeout: 30000 }));
+      return route.fulfill({ response });
+    } catch {
+      return route.abort('failed');
+    }
+  });
   const page = await context.newPage();
   const requests = [];
   const pending = [];
@@ -77,9 +113,7 @@ async function capture(browser, outDir, label, options, stored) {
         const body = await response.body();
         entry.body_size = body.length;
         entry.body_sha256 = sha256(body);
-        const host = new URL(request.url()).hostname;
-        const sameOrigin = host === TARGET || host.endsWith(`.${TARGET}`);
-        if (sameOrigin && STORED_TYPES.has(request.resourceType())) {
+        if (isSameOrigin(request.url()) && STORED_TYPES.has(request.resourceType())) {
           const name = assetName(request.url(), body);
           if (!stored.has(name)) {
             fs.writeFileSync(path.join(outDir, name), body);
@@ -110,11 +144,21 @@ async function capture(browser, outDir, label, options, stored) {
   let mainResponse = null;
   let navigationError = null;
   try {
-    mainResponse = await page.goto(START_URL, { waitUntil: 'networkidle', timeout: 45000 });
+    mainResponse = await page.goto(new URL(pagePath, START_URL).href, { waitUntil: 'load', timeout: 60000 });
   } catch (err) {
     navigationError = String(err.message || err);
   }
-  await page.waitForTimeout(3000);
+  await page.waitForLoadState('networkidle', { timeout: 20000 }).catch(() => {});
+  // Scroll once so lazily loaded images render; this is viewing, not interaction.
+  await page.evaluate(async () => {
+    for (let y = 0; y < document.body.scrollHeight; y += 600) {
+      window.scrollTo(0, y);
+      await new Promise((resolve) => setTimeout(resolve, 300));
+    }
+    window.scrollTo(0, 0);
+  }).catch(() => {});
+  await page.waitForLoadState('networkidle', { timeout: 20000 }).catch(() => {});
+  await page.waitForTimeout(2000);
   await Promise.allSettled(pending);
 
   const title = await page.title().catch(() => null);
@@ -134,6 +178,7 @@ async function capture(browser, outDir, label, options, stored) {
 
   const summary = {
     label,
+    page_path: pagePath,
     started_at_utc: startedAt,
     final_url: page.url(),
     main_status: mainResponse ? mainResponse.status() : null,
@@ -180,22 +225,62 @@ async function main() {
     `playwright=${require('playwright/package.json').version}`,
     `https_proxy_configured=${proxy ? 'yes' : 'no'}`,
     'tls_certificate_errors_ignored=yes (egress proxy re-signs TLS; certificates come from CT instead)',
+    `same_origin_requests=fetched via Playwright route.fetch with up to ${ATTEMPTS} attempts`,
     '',
   ].join('\n'));
 
   const stored = new Set();
   const summaries = {};
-  for (const [label, options] of Object.entries(VIEWPORTS)) {
-    summaries[label] = await capture(browser, outDir, label, options, stored);
-    if (summaries[label].bot_challenge_detected) break;
+  let challenged = false;
+  for (const [viewport, options] of Object.entries(VIEWPORTS)) {
+    for (const pagePath of PAGES[viewport]) {
+      const slug = pagePath === '/' ? 'home' : pagePath.replace(/^\//, '').replace(/[^A-Za-z0-9_-]/g, '_');
+      const label = `${viewport}-${slug}`;
+      summaries[label] = await capture(browser, outDir, label, pagePath, options, stored);
+      if (summaries[label].bot_challenge_detected) {
+        challenged = true;
+        break;
+      }
+    }
+    if (challenged) break;
   }
 
   const context = await browser.newContext({ ignoreHTTPSErrors: true });
+  const get = (url) => withRetries(() => context.request.get(url, { maxRedirects: 0, timeout: 30000 }));
+
+  // Static chunks named in the app's own module manifest (m.f=[...] in the entry bundle).
+  const chunks = [];
+  const homeHtml = path.join(outDir, 'served-html-desktop-home.html');
+  const entry = fs.existsSync(homeHtml)
+    ? (fs.readFileSync(homeHtml, 'utf8').match(/\/assets\/index-[A-Za-z0-9_-]+\.js/) || [])[0]
+    : undefined;
+  if (entry && !challenged) {
+    const entryBody = await (await get(`https://${TARGET}${entry}`)).body();
+    const list = (entryBody.toString('utf8').match(/m\.f=\[([^\]]*)\]/) || [])[1] || '';
+    const names = [entry.slice(1), ...(list.match(/assets\/[A-Za-z0-9._-]+\.(?:js|css)/g) || [])];
+    for (const name of [...new Set(names)]) {
+      const url = `https://${TARGET}/${name}`;
+      try {
+        const res = await get(url);
+        const body = await res.body();
+        const stored_as = assetName(url, body);
+        if (!stored.has(stored_as)) {
+          fs.writeFileSync(path.join(outDir, stored_as), body);
+          stored.add(stored_as);
+        }
+        chunks.push({ url, status: res.status(), body_sha256: sha256(body), stored_as });
+      } catch (err) {
+        chunks.push({ url, error: String(err.message || err) });
+      }
+    }
+  }
+  fs.writeFileSync(path.join(outDir, 'static-chunks.json'), JSON.stringify(chunks, null, 2));
+
   const extras = [];
   for (const p of EXTRA_PATHS) {
     const url = `https://${TARGET}${p}`;
     try {
-      const res = await context.request.get(url, { maxRedirects: 0, timeout: 20000 });
+      const res = await get(url);
       const body = await res.body();
       const name = `extra-${p.replace(/[^A-Za-z0-9._-]/g, '_').replace(/^_/, '')}`;
       fs.writeFileSync(path.join(outDir, name), body);
