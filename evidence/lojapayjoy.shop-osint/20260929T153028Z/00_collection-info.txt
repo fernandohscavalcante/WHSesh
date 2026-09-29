@@ -1,0 +1,9 @@
+target=lojapayjoy.shop
+collected_at_utc=2026-09-29T15:30:28Z
+collection_scope=third-party-OSINT-only-no-request-to-target
+collector_sha256=229c8210cb5467197b0a5371f2f621ed837c420974aef5e106a49c900b362219
+collector_git_commit=c9dc7ddf9165cc14cf71da94c092887b84b441f4
+collector_modified_since_commit=untracked
+curl_version=curl 8.5.0
+https_proxy_configured=yes
+custom_ca_bundle_configured=yes

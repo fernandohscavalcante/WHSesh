@@ -1,0 +1,43 @@
+[
+  {
+    "url": "https://lojapayjoy.shop/robots.txt",
+    "status": 200,
+    "headers": {
+      "date": "Tue, 29 Sep 2026 15:51:53 GMT",
+      "content-type": "text/plain; charset=utf-8",
+      "transfer-encoding": "chunked",
+      "connection": "close",
+      "set-cookie": "(redacted; sha256=21b4b40b92f5782697866ad7d9071c4a6219722361571316326dd114cf8c2449)",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301913.k5G4T3Xdx5fIhZEt3v9zLU7iOUFYqOeJkgndg8lMGt8",
+      "content-encoding": "gzip",
+      "server": "cloudflare",
+      "cf-ray": "a42c26e06d5d96cf-IAD"
+    },
+    "stored_as": "extra-robots.txt",
+    "body_sha256": "a02060aeffe88411d084facfecbfc8423f113f0f3db59822f56ce87da7ff0d0f"
+  },
+  {
+    "url": "https://lojapayjoy.shop/sitemap.xml",
+    "status": 200,
+    "headers": {
+      "date": "Tue, 29 Sep 2026 15:51:54 GMT",
+      "content-type": "application/xml",
+      "transfer-encoding": "chunked",
+      "connection": "close",
+      "cache-control": "public, max-age=3600",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "x-deployment-id": "psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791301914.UMqmuKDvBMuJGfmeE6ksOTVotPxkAOTYV8h8DGUAkiI",
+      "set-cookie": "(redacted; sha256=a75879f4ad8ce826ff96b18d01ea8551a23c51c1915852125011a3a031b09378)",
+      "content-encoding": "gzip",
+      "server": "cloudflare",
+      "cf-ray": "a42c26e3396f9807-IAD"
+    },
+    "stored_as": "extra-sitemap.xml",
+    "body_sha256": "f3521784422b52a3bedd54d7be6c6f491cf53468ac1387417794496ef5be1f29"
+  }
+]

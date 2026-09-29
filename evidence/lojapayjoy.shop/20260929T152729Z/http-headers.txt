@@ -1,0 +1,11 @@
+HTTP/2 200
+date: Tue, 29 Sep 2026 15:28:06 GMT
+content-type: text/html; charset=utf-8
+cache-control: no-cache, must-revalidate, max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-deployment-id: psr2.ace2fd78-4659-466d-8532-e48ac1fde1c3.1791300485.H1h2SLmeaO3BR3anNWV5qgf8x_TFkKt1cVFVA4__9a4
+server: cloudflare
+cf-ray: a42c03ffc9aa3976-IAD
+

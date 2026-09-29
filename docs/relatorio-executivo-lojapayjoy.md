@@ -57,7 +57,7 @@ A ordem acima descreve registros públicos observados; ela não estabelece quand
 | --- | --- | --- | --- |
 | Imediata | Enviar denúncia de abuso ao registrador e ao provedor de publicação/entrega, anexando domínio, data/hora, cabeçalhos, DNS e hashes. | Suspensão do conteúdo ou abertura de caso de abuso; protocolo de atendimento. | Apenas o provedor decide a medida. Solicitar também preservação de logs para autoridade competente. |
 | Imediata | Registrar e preservar capturas visuais da página e do fluxo de fraude por meio aprovado pelo Jurídico, com horário e hash. | Evidência da aparência, do uso de marca e da jornada apresentada ao usuário. | Não inserir dados reais, não contratar produto e não efetuar pagamento. |
-| Alta | Repetir a coleta passiva em intervalos definidos e comparar manifests. | Detectar mudança de IP, DNS, certificados ou disponibilidade sem tocar nos sistemas do operador. | Mudanças de infraestrutura não demonstram autoria; devem ser tratadas como novos indicadores. |
+| Alta | Repetir a coleta passiva em intervalos definidos e comparar os indicadores extraídos de cada coleta (o manifesto de hashes muda a cada execução, porque as respostas trazem carimbos de tempo). | Detectar mudança de IP, DNS, certificados ou disponibilidade sem tocar nos sistemas do operador. | Mudanças de infraestrutura não demonstram autoria; devem ser tratadas como novos indicadores. |
 | Alta | Centralizar URLs, identificadores de caso e confirmação de preservação em sistema interno de casos. | Cadeia de custódia e visão única para Jurídico, Fraud Ops e liderança. | Não publicar os artefatos em canais externos ou públicos. |
 | Conforme orientação jurídica | Pedir dados não públicos — por exemplo, titularidade, logs e dados de pagamento — somente por canal e instrumento jurídico adequados. | Possível obtenção de dados de atribuição e rastreabilidade financeira. | A equipe técnica não deve tentar contornar controles, consultar backends ou obter esses dados diretamente. |
 
@@ -82,5 +82,9 @@ Esse limite reduz o risco de alteração de evidências, de contato acidental co
 ## 8. Integridade e localização dos arquivos
 
 O diretório [`evidence/lojapayjoy.shop/20260929T140811Z`](../evidence/lojapayjoy.shop/20260929T140811Z) contém as respostas brutas e o arquivo `SHA256SUMS`. O manifesto cobre cada evidência do diretório, exceto o próprio manifesto. A captura de cabeçalhos deliberadamente exclui o `Set-Cookie`, pois esse valor pode carregar token temporário de proteção contra bots e não é necessário para demonstrar a disponibilidade do endereço.
+
+Antes de apoiar qualquer medida neste snapshot, o Jurídico deve considerar as [limitações conhecidas](lojapayjoy-technical-status.md#known-limitations-of-snapshot-20260929t140811z) descritas no relatório técnico: a versão do coletor que o produziu não está preservada no repositório, e o arquivo de cabeçalhos contém, antes da resposta do domínio, um bloco compatível com a resposta do proxy de saída do ambiente de coleta.
+
+Os achados da coleta ampliada de 29/09/2026 (uso da marca, cópia de texto da loja oficial, fluxo de pagamento, infraestrutura e canais de denúncia) estão no [registro OSINT](registro-osint-lojapayjoy-20260929.md).
 
 Para nova coleta passiva, a equipe técnica pode executar o coletor documentado no [relatório técnico](lojapayjoy-technical-status.md#reproducible-passive-collection). Ele fixa o alvo no domínio deste caso e cria um novo diretório UTC; não foi desenhado como ferramenta genérica de investigação.

@@ -1,0 +1,1 @@
+var e=[`utm_source`,`utm_medium`,`utm_campaign`,`utm_content`,`utm_term`,`src`,`sck`];function t(){if(typeof window>`u`)return;let t=new URLSearchParams(window.location.search),n={};for(let r of e){let e=t.get(r);e&&(n[r]=e.slice(0,120))}return Object.keys(n).length>0?n:void 0}export{t};

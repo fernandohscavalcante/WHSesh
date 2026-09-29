@@ -1,0 +1,11 @@
+target=lojapayjoy.shop
+collected_at_utc=2026-09-29T15:50:23Z
+collection_scope=public-landing-page-view-only-no-interaction
+collector_sha256=8d3d23cd9ae27f89745d8863504e95abfdb58b4b994e87ee495b88350ad70fbb
+collector_git_commit=631776514ec79ed02ba1b5b57c7a328334375368
+collector_modified_since_commit=no
+browser=chromium 141.0.7390.37
+playwright=1.56.1
+https_proxy_configured=yes
+tls_certificate_errors_ignored=yes (egress proxy re-signs TLS; certificates come from CT instead)
+same_origin_requests=fetched via Playwright route.fetch with up to 4 attempts

@@ -1,0 +1,31 @@
+name: Evidence integrity
+
+# Local checks only: this workflow never contacts the reported domain or any
+# OSINT data source (a shellcheck install from Ubuntu mirrors is the only download).
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Verify evidence manifests
+        run: ./scripts/verify_evidence.sh
+      - name: Lint shell scripts
+        run: |
+          command -v shellcheck >/dev/null || { sudo apt-get update -q && sudo apt-get install -yq shellcheck; }
+          shellcheck scripts/*.sh
+      - name: Check Python and JavaScript syntax
+        run: |
+          python3 -m py_compile scripts/*.py
+          for script in scripts/*.js; do node --check "$script"; done
+      - name: Extract indicators from every passive snapshot
+        run: |
+          for snapshot in evidence/lojapayjoy.shop/*/; do
+            python3 scripts/snapshot_indicators.py "$snapshot" > /dev/null
+          done

@@ -1,0 +1,10 @@
+target=lojapayjoy.shop
+collected_at_utc=2026-09-29T15:36:17Z
+collection_scope=public-landing-page-view-only-no-interaction
+collector_sha256=fda71a9ccba30ff09eb87b358fcd9643f2f8820e4b72660078b8d066ddaeb16f
+collector_git_commit=ee497f7ab3bdcf37f93b59d41d1e187d7815f56f
+collector_modified_since_commit=no
+browser=chromium 141.0.7390.37
+playwright=1.56.1
+https_proxy_configured=yes
+tls_certificate_errors_ignored=yes (egress proxy re-signs TLS; certificates come from CT instead)

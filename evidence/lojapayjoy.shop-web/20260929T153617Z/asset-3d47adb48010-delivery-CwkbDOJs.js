@@ -1,0 +1,1 @@
+var e=`payjoy:delivery-method`;function t(t){try{window.localStorage.setItem(e,t)}catch{}}function n(){if(typeof window>`u`)return null;try{let t=window.localStorage.getItem(e);return t===`physical`||t===`online`?t:null}catch{return null}}export{t as n,n as t};
